@@ -1,3 +1,4 @@
 <div>
-    <h1>Ini adalah slot dari Button Custom huhu</h1>
+    <button type="button" class="{{ $background ?? 'tombol-coba' }}"
+    >{{ $name }}</button>
 </div>
